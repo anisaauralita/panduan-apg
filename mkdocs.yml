@@ -1,4 +1,5 @@
-site_name: Panduan Apliasi Manajemen Pegawai
+site_name: Panduan Aplikasi Manajemen Pegawai
+# site_url: https://mydomain.org/mysite
 theme:
   name: material
   palette:
@@ -8,7 +9,7 @@ theme:
       primary: pink
       accent: pink
       toggle:
-        icon: material/lightbulb 
+        icon: material/lightbulb
         name: Switch to dark mode
 
     # Palette toggle for dark mode
@@ -18,20 +19,21 @@ theme:
       toggle:
         icon: material/lightbulb-outline
         name: Switch to light mode
-
-  # mengatur font
+  
+  # Mengatur font
   font:
     text: Open Sans
     code: JetBrains Mono
 
-  # Icon
-  logo: images/book.png
-  favicon: images/book.png
+  # icon:
+    # logo: material/book
+  favicon: images/close-book.png
+  logo: images/close-book.png
 
   icon:
     admonition:
       note: fontawesome/solid/note-sticky
-      abstrack: fontawesome/solid/book
+      abstract: fontawesome/solid/book
       info: fontawesome/solid/circle-info
       tip: fontawesome/solid/bullhorn
       success: fontawesome/solid/check
@@ -42,25 +44,34 @@ theme:
       bug: fontawesome/solid/robot
       example: fontawesome/solid/flask
       quote: fontawesome/solid/quote-left
-  
+
   features:
     # - navigation.footer
     # - navigation.tabs
-
-  markdown-ekstensions:
-    - admonition
-    - pymdownx.details
-    - pymdownx.superfences
-    # Fitur
-    - attr-list
-    # Keyboard
-    - pymdownx.keys
+  
 
 plugins:
   - search
 
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  # Fitur
+  - attr_list
+  # Keyboard
+  - pymdownx.keys
+
+
 # Footer
-copyright: Made With by Anisaauralita | &copy; 2025
+copyright: Made with ❤️ by Anisaauralita | &copy; 2025
 
 extra:
   generator: false
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/anisaauralita
+    - icon: fontawesome/brands/instagram
+      link: https://instagram.com/auralita_aszahra
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/anisa-auralita-9b3117281
